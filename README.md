@@ -9,8 +9,8 @@ To get started with this project, follow these steps:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/diegodazpeitia/react-hook-form-login.git
-   cd react-hook-form-login
+   git clone https://github.com/diegodazpeitia/shopping-cart.git
+   cd shopping-cart
    ```
 
 2. **Install Dependencies**
