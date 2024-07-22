@@ -9,7 +9,7 @@ To get started with this project, follow these steps:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/react-hook-form-login.git
+   git clone https://github.com/diegodazpeitia/react-hook-form-login.git
    cd react-hook-form-login
    ```
 
