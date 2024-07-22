@@ -55,7 +55,7 @@ To learn more about `react-hook-form`, visit the [official documentation](https:
 ## Author
 
 - **Diego Azpeitia**
-- GitHub: [github.com/yourusername](https://github.com/diegodazpeitia)
+- GitHub: [github.com/diegodazpeitia](https://github.com/diegodazpeitia)
 
 ## License
 
