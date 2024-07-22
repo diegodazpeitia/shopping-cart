@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# React Hook Form - Simple Login Form Example
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple demonstration of using `react-hook-form` in a React application. The purpose is to implement a basic login form where users can input their email and password to log in. This serves as a practical introduction to `react-hook-form`, a powerful library for managing forms in React with ease.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To get started with this project, follow these steps:
 
-### `npm start`
+1. **Clone the Repository**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   ```bash
+   git clone https://github.com/yourusername/react-hook-form-login.git
+   cd react-hook-form-login
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Install Dependencies**
 
-### `npm test`
+   Make sure you have Node.js and npm installed on your machine. Then, install the project dependencies.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   npm install
+   ```
 
-### `npm run build`
+3. **Run the Application**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   Start the development server to run the application locally.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### `npm run eject`
+## About the Project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The core logic of the login form is implemented in `src/Login.jsx`. Here's a breakdown of the main components:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Login Component (`src/Login.jsx`)**: This component uses `react-hook-form` to manage form state and validation.
+  - It handles form submission with `handleSubmit` from `react-hook-form`.
+  - Validates the email field for required input using `register` and shows an error message if the field is empty.
+  - Handles form submission using `onSubmit` function, where it checks against stored user data in localStorage.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **react-hook-form**: A library for managing form state and validation in React applications.
+- **CSS**: Basic styling is applied using CSS classes defined in `App.css`.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To learn more about `react-hook-form`, visit the [official documentation](https://react-hook-form.com/).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
+- **Diego Azpeitia**
+- GitHub: [github.com/yourusername](https://github.com/diegodazpeitia)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to customize the README further with additional sections, screenshots, or any other details that might be relevant to your project. This structure provides a clear overview of your project using `react-hook-form` for a login form, aimed at helping others understand and get started with your codebase.
