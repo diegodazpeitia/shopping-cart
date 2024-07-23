@@ -60,7 +60,3 @@ To learn more about `react-hook-form`, visit the [official documentation](https:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize the README further with additional sections, screenshots, or any other details that might be relevant to your project. This structure provides a clear overview of your project using `react-hook-form` for a login form, aimed at helping others understand and get started with your codebase.
